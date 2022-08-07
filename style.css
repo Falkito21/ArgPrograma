@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Poppins:wght@300;400;500;600&family=Roboto:wght@100;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
+}
+.nav{
+    background-color: #222;
+    display: flex;
+    padding: 1.05rem;
+    justify-content: flex-end;
+}
+.nav .nav-lista{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.nav .nav-lista li{
+    list-style: none;
+}
+.nav .nav-lista a{
+    color: rgb(207, 16, 105);
+    text-decoration: none;
+    font-size: 1.7rem;
+    transition: .5s ease-in;
+}
+.nav .nav-lista a:hover{
+    color: whitesmoke;
+    transition: .5s ease-in-out;
+}
+#inicio{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(img/inicio3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+input[type="submit"]{
+    border: none;
+    width: 11rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    color:rgb(221, 27, 124) ;
+    transition: .5s ease-in;
+}
+input[type="submit"]:hover{
+    border: none;
+    font-size: 1.65rem;
+    transition: .5s ease-out;
+    background-color: #222;
+    color: whitesmoke;
+}
+#sobreMi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+}
+h2{
+    font-size: 3rem;
+    
+}
+hr{
+    width: 10rem;
+    color: rgb(214, 15, 124);
+}
+#sobreMi .cont-sobreMi{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+#sobreMi .cont-sobreMi img{
+    max-width: 40%;
+    margin-left: 1.2rem;
+}
+#sobreMi .cont-sobreMi .texto{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 1.5rem 0 0;
+    width: 100%;
+}
+#skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#skill .cont-skill{
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: row;
+    gap: 20rem;
+}
+#skill .cont-skill ul li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+#contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    height: 100vh;
+}
+.cont-contacto{
+    padding: 2rem;
+}
+.cont-contacto form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cont-contacto form .columnas{
+    display: flex;
+    flex-direction: row;
+}
+.cont-contacto form label{
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+}
+.cont-contacto .columnas input{
+    height: 2rem;
+    border: none;
+    border-bottom: 1px solid #222;
+}
+.cont-contacto input[type="submit"]{
+    margin-top: 2rem;
+}
+
